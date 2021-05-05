@@ -4,7 +4,7 @@
 @prefix schema: <http://schema.org> .
 @prefix dbo: <http://dbpedia.org/ontology> .
 
-@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
+@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab.ttl#> .
 
 
 

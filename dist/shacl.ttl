@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 
-@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
+@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab.ttl#> .
 
 #################################################
 #             Shape Untuk Properti              #

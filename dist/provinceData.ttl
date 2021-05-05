@@ -2,7 +2,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 @prefix dbr: <http://dbpedia.org/resource/> .
 
-@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
+@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab.ttl#> .
 @prefix provinceData: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/provinceData.ttl#> .
 
 
