@@ -3,7 +3,7 @@
 @prefix dbr: <http://dbpedia.org/resource/> .
 
 @prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
-@prefix provinceData: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/provinceData#> .
+@prefix provinceData: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/provinceData.ttl#> .
 
 
 #######################################################
