@@ -19,6 +19,16 @@ provinceData:Sebaran_Covid_DKI_Jakarta_2021_05_04 a baseVocab:Covid_Case_In_Indo
     baseVocab:totalPatientDeath "6704"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
+provinceData:Sebaran_Covid_DKI_Jakarta_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Jakarta ;
+    baseVocab:totalConfirmedCase "411573"^^xsd:integer ;
+    baseVocab:totalActiveCase "6527"^^xsd:integer ;
+    baseVocab:totalPatientHealed "398317"^^xsd:integer ;
+    baseVocab:totalPatientDeath "6729"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
 provinceData:Sebaran_Covid_Jawa_Barat_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -27,6 +37,16 @@ provinceData:Sebaran_Covid_Jawa_Barat_2021_05_04 a baseVocab:Covid_Case_In_Indon
     baseVocab:totalActiveCase "30597"^^xsd:integer ;
     baseVocab:totalPatientHealed "248276"^^xsd:integer ;
     baseVocab:totalPatientDeath "3758"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
+provinceData:Sebaran_Covid_Jawa_Barat_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:West_Java ;
+    baseVocab:totalConfirmedCase "284835"^^xsd:integer ;
+    baseVocab:totalActiveCase "30460"^^xsd:integer ;
+    baseVocab:totalPatientHealed "250576"^^xsd:integer ;
+    baseVocab:totalPatientDeath "3799"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
 provinceData:Sebaran_Covid_Jawa_Tengah_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
@@ -39,6 +59,16 @@ provinceData:Sebaran_Covid_Jawa_Tengah_2021_05_04 a baseVocab:Covid_Case_In_Indo
     baseVocab:totalPatientDeath "8245"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
+provinceData:Sebaran_Covid_Jawa_Tengah_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Central_Java ;
+    baseVocab:totalConfirmedCase "185526"^^xsd:integer ;
+    baseVocab:totalActiveCase "9860"^^xsd:integer ;
+    baseVocab:totalPatientHealed "167343"^^xsd:integer ;
+    baseVocab:totalPatientDeath "8323"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
 provinceData:Sebaran_Covid_Jawa_Timur_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -47,6 +77,16 @@ provinceData:Sebaran_Covid_Jawa_Timur_2021_05_04 a baseVocab:Covid_Case_In_Indon
     baseVocab:totalActiveCase "2191"^^xsd:integer ;
     baseVocab:totalPatientHealed "135284"^^xsd:integer ;
     baseVocab:totalPatientDeath "10708"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
+provinceData:Sebaran_Covid_Jawa_Timur_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:East_Java ;
+    baseVocab:totalConfirmedCase "148688"^^xsd:integer ;
+    baseVocab:totalActiveCase "2154"^^xsd:integer ;
+    baseVocab:totalPatientHealed "135774"^^xsd:integer ;
+    baseVocab:totalPatientDeath "10760"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
 provinceData:Sebaran_Covid_Kalimantan_Timur_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
@@ -59,6 +99,16 @@ provinceData:Sebaran_Covid_Kalimantan_Timur_2021_05_04 a baseVocab:Covid_Case_In
     baseVocab:totalPatientDeath "1640"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
+provinceData:Sebaran_Covid_Kalimantan_Timur_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:East_Kalimantan ;
+    baseVocab:totalConfirmedCase "69038"^^xsd:integer ;
+    baseVocab:totalActiveCase "1586"^^xsd:integer ;
+    baseVocab:totalPatientHealed "65803"^^xsd:integer ;
+    baseVocab:totalPatientDeath "1649"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
 provinceData:Sebaran_Covid_Sulawesi_Selatan_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -66,6 +116,16 @@ provinceData:Sebaran_Covid_Sulawesi_Selatan_2021_05_04 a baseVocab:Covid_Case_In
     baseVocab:totalConfirmedCase "61524"^^xsd:integer ;
     baseVocab:totalActiveCase "300"^^xsd:integer ;
     baseVocab:totalPatientHealed "60289"^^xsd:integer ;
+    baseVocab:totalPatientDeath "935"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
+provinceData:Sebaran_Covid_Sulawesi_Selatan_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:South_Sulawesi ;
+    baseVocab:totalConfirmedCase "61558"^^xsd:integer ;
+    baseVocab:totalActiveCase "317"^^xsd:integer ;
+    baseVocab:totalPatientHealed "60306"^^xsd:integer ;
     baseVocab:totalPatientDeath "935"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
@@ -79,6 +139,16 @@ provinceData:Sebaran_Covid_Banten_2021_05_04 a baseVocab:Covid_Case_In_Indonesia
     baseVocab:totalPatientDeath "1212"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
+provinceData:Sebaran_Covid_Banten_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Banten ;
+    baseVocab:totalConfirmedCase "47689"^^xsd:integer ;
+    baseVocab:totalActiveCase "1994"^^xsd:integer ;
+    baseVocab:totalPatientHealed "44479"^^xsd:integer ;
+    baseVocab:totalPatientDeath "1216"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
 provinceData:Sebaran_Covid_Bali_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -87,6 +157,16 @@ provinceData:Sebaran_Covid_Bali_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_P
     baseVocab:totalActiveCase "1676"^^xsd:integer ;
     baseVocab:totalPatientHealed "41992"^^xsd:integer ;
     baseVocab:totalPatientDeath "1231"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
+provinceData:Sebaran_Covid_Bali_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Bali ;
+    baseVocab:totalConfirmedCase "45154"^^xsd:integer ;
+    baseVocab:totalActiveCase "1682"^^xsd:integer ;
+    baseVocab:totalPatientHealed "42224"^^xsd:integer ;
+    baseVocab:totalPatientDeath "1248"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
 provinceData:Sebaran_Covid_Riau_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
@@ -99,6 +179,16 @@ provinceData:Sebaran_Covid_Riau_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_P
     baseVocab:totalPatientDeath "1116"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 
+provinceData:Sebaran_Covid_Riau_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Riau ;
+    baseVocab:totalConfirmedCase "46061"^^xsd:integer ;
+    baseVocab:totalActiveCase "5185"^^xsd:integer ;
+    baseVocab:totalPatientHealed "39735"^^xsd:integer ;
+    baseVocab:totalPatientDeath "1141"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
 provinceData:Sebaran_Covid_DI_Yogyakarta_2021_05_04 a baseVocab:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -107,5 +197,15 @@ provinceData:Sebaran_Covid_DI_Yogyakarta_2021_05_04 a baseVocab:Covid_Case_In_In
     baseVocab:totalActiveCase "3814"^^xsd:integer ;
     baseVocab:totalPatientHealed "35045"^^xsd:integer ;
     baseVocab:totalPatientDeath "965"^^xsd:integer ;
+    baseVocab:disease dbr:Coronavirus .
+
+provinceData:Sebaran_Covid_DI_Yogyakarta_2021_05_05 a baseVocab:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Special_Region_of_Yogyakarta ;
+    baseVocab:totalConfirmedCase "40140"^^xsd:integer ;
+    baseVocab:totalActiveCase "3478"^^xsd:integer ;
+    baseVocab:totalPatientHealed "35681"^^xsd:integer ;
+    baseVocab:totalPatientDeath "981"^^xsd:integer ;
     baseVocab:disease dbr:Coronavirus .
 ######################################################
