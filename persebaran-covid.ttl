@@ -1,0 +1,243 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org> .
+@prefix dbo: <https://dbpedia.org/ontology> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix covid: <http:example.com/> .
+
+#################################################
+#        Class Persebaran Covid Provinsi        #
+#################################################
+covid:Covid_Case_In_Indonesia_Province a rdfs:Class .
+covid:Covid_Case_In_Indonesia_Province rdfs:subClassof schema:SpecialAnnouncement .
+
+covid:totalPatientHealed a rdf:Property .
+covid:totalPatientHealed rdfs:domain covid:Covid_Case_In_Indonesia_Province .
+covid:totalPatientHealed rdfs:range xsd:integer .
+
+covid:totalConfirmedCase a rdf:Property .
+covid:totalConfirmedCase rdfs:domain covid:Covid_Case_In_Indonesia_Province .
+covid:totalConfirmedCase rdfs:range xsd:integer .
+
+covid:totalActiveCase a rdf:Property .
+covid:totalActiveCase rdfs:domain covid:Covid_Case_In_Indonesia_Province .
+covid:totalActiveCase rdfs:range xsd:integer .
+
+covid:totalPatientDeath a rdf:Property .
+covid:totalPatientDeath rdfs:domain covid:Covid_Case_In_Indonesia_Province .
+covid:totalPatientDeath rdfs:range xsd:integer .
+
+covid:disease a rdf:Property .
+covid:disease rdfs:domain covid:Covid_Case_In_Indonesia_Province, covid:Covid19_Symptom_Statistics .
+covid:disease rdfs:range dbo:disease .
+#################################################
+
+
+#################################################
+#    Class Statistik Gejala Positif Covid       #
+#################################################
+covid:Covid19_Symptom_Statistics a rdfs:Class .
+covid:Covid19_Symptom_Statistics rdfs:subClassof schema:SpecialAnnouncement .
+
+covid:symptom a rdf:Property .
+covid:symptom rdfs:domain covid:Covid19_Symptom_Statistics .
+covid:symptom rdfs:range dbo:disease .
+
+covid:totalPatientWithSymptomPositivePercentage a rdf:Property .
+covid:totalPatientWithSymptomPositivePercentage rdfs:domain covid:Covid19_Symptom_Statistics .
+covid:totalPatientWithSymptomPositivePercentage rdfs:range xsd:float .
+#################################################
+
+
+
+#################################################
+#         Data Statistik Gejala Covid           #
+#################################################
+covid:Statistik_Covid_Cough_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Cough ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "63.2"^^xsd:float .
+
+covid:Statistik_Covid_Fever_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Fever ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "35.9"^^xsd:float .
+
+covid:Statistik_Covid_Flu_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Influenza ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "33.8"^^xsd:float .
+
+covid:Statistik_Covid_Limp_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Limp ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "26.7"^^xsd:float .
+
+covid:Statistik_Covid_Septic_Throat_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Pharyngitis ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "23.7"^^xsd:float .
+
+covid:Statistik_Covid_Headache_Throat_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Headache ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "23"^^xsd:float .
+
+covid:Statistik_Covid_Muscle_Cramp_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Cramp ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "15.1"^^xsd:float .
+
+covid:Statistik_Covid_Nausea_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Nausea ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "13"^^xsd:float .
+
+covid:Statistik_Covid_Colic_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Colic ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "5.7"^^xsd:float .
+
+covid:Statistik_Covid_Diarrhea_Symptom a covid:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Indonesia ;
+    covid:symptom dbr:Diarrhea ;
+    covid:disease dbr:Coronavirus ;
+    covid:totalPatientWithSymptomPositivePercentage "5.5"^^xsd:float .
+#################################################
+
+
+
+#######################################################
+# Data Persebaran Covid Di Seluruh Provinsi Indonesia #
+#######################################################
+covid:Sebaran_Covid_DKI_Jakarta a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Jakarta ;
+    covid:totalConfirmedCase "410400"^^xsd:integer ;
+    covid:totalActiveCase "6657"^^xsd:integer ;
+    covid:totalPatientHealed "397079"^^xsd:integer ;
+    covid:totalPatientDeath "6704"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Jawa_Barat a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:West_Java ;
+    covid:totalConfirmedCase "282631"^^xsd:integer ;
+    covid:totalActiveCase "30597"^^xsd:integer ;
+    covid:totalPatientHealed "248276"^^xsd:integer ;
+    covid:totalPatientDeath "3758"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Jawa_Tengah a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Central_Java ;
+    covid:totalConfirmedCase "184620"^^xsd:integer ;
+    covid:totalActiveCase "10343"^^xsd:integer ;
+    covid:totalPatientHealed "166032"^^xsd:integer ;
+    covid:totalPatientDeath "8245"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Jawa_Timur a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:East_Java ;
+    covid:totalConfirmedCase "148183"^^xsd:integer ;
+    covid:totalActiveCase "2191"^^xsd:integer ;
+    covid:totalPatientHealed "135284"^^xsd:integer ;
+    covid:totalPatientDeath "10708"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Kalimantan_Timur a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:East_Kalimantan ;
+    covid:totalConfirmedCase "68817"^^xsd:integer ;
+    covid:totalActiveCase "1658"^^xsd:integer ;
+    covid:totalPatientHealed "65519"^^xsd:integer ;
+    covid:totalPatientDeath "1640"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Sulawesi_Selatan a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:South_Sulawesi ;
+    covid:totalConfirmedCase "61524"^^xsd:integer ;
+    covid:totalActiveCase "300"^^xsd:integer ;
+    covid:totalPatientHealed "60289"^^xsd:integer ;
+    covid:totalPatientDeath "935"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Banten a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Banten ;
+    covid:totalConfirmedCase "47451"^^xsd:integer ;
+    covid:totalActiveCase "1961"^^xsd:integer ;
+    covid:totalPatientHealed "44278"^^xsd:integer ;
+    covid:totalPatientDeath "1212"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Bali a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Bali ;
+    covid:totalConfirmedCase "44899"^^xsd:integer ;
+    covid:totalActiveCase "1676"^^xsd:integer ;
+    covid:totalPatientHealed "41992"^^xsd:integer ;
+    covid:totalPatientDeath "1231"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_Riau a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Riau ;
+    covid:totalConfirmedCase "45237"^^xsd:integer ;
+    covid:totalActiveCase "4991"^^xsd:integer ;
+    covid:totalPatientHealed "39130"^^xsd:integer ;
+    covid:totalPatientDeath "1116"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+
+covid:Sebaran_Covid_DI_Yogyakarta a covid:Covid_Case_In_Indonesia_Province ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-04"^^xsd:datetime ;
+    schema:spatial dbr:Special_Region_of_Yogyakarta ;
+    covid:totalConfirmedCase "39824"^^xsd:integer ;
+    covid:totalActiveCase "3814"^^xsd:integer ;
+    covid:totalPatientHealed "35045"^^xsd:integer ;
+    covid:totalPatientDeath "965"^^xsd:integer ;
+    covid:disease dbr:Coronavirus .
+######################################################

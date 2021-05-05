@@ -1,0 +1,113 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <https://schema.org> .
+@prefix dbo: <https://dbpedia.org/ontology> .
+@prefix dbr: <https://dbpedia.org/resource/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix covid: <http:example.com/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix dash: <http://datashapes.org/dash#> .
+
+
+#################################################
+#             Shape Untuk Properti              #
+#################################################
+
+covid:totalConfirmedCaseShape a sh:PopertyShape ;
+	sh:path covid:totalConfirmedCase ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+covid:totalActiveCaseShape a sh:PopertyShape ;
+	sh:path covid:totalActiveCase ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+covid:totalPatientDeathShape a sh:PopertyShape ;
+	sh:path covid:totalPatientDeath ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+covid:totalPatientHealedShape a sh:PopertyShape ;
+	sh:path covid:totalPatientHealed ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+covid:totalPatientWithSymptomPositivePercentageShape a sh:PopertyShape ;
+	sh:path covid:totalPatientWithSymptomPositivePercentage ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:float .
+#################################################
+
+
+#################################################
+#     Shape Untuk Persebaran Covid Provinsi     #
+#################################################
+
+covid:Covid_Case_In_Indonesia_Province_Shape a sh:NodeShape ;
+    sh:targetClass covid:Covid_Case_In_Indonesia_Province ;
+    sh:property [
+        sh:path schema:diseaseSpreadStatistics ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:datePosted ;
+        sh:minCount 1 ;
+        sh:datatype xsd:datetime ;
+    ] ;
+    sh:property [
+        sh:path schema:spatial ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path covid:disease ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+    sh:property covid:totalConfirmedCaseShape ;
+    sh:property covid:totalActiveCaseShapeCaseShape ;
+    sh:property covid:totalPatientHealedShape ;
+    sh:property covid:totalPatientDeathShape .
+#################################################
+
+
+
+#################################################
+#     Shape Untuk Statistik Gejala Covid        #
+#################################################
+
+covid:Covid19_Symptom_Statistics_Shape a sh:NodeShape ;
+	sh:targetClass covid:Covid19_Symptom_Statistics ;
+	sh:property [
+        sh:path schema:diseaseSpreadStatistics ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:datePosted ;
+        sh:minCount 1 ;
+        sh:datatype xsd:datetime ;
+    ] ;
+    sh:property [
+        sh:path schema:spatial ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path covid:symptom ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path covid:disease ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property covid:totalPatientWithSymptomPositivePercentageShape .
+#################################################
