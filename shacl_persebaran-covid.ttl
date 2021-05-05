@@ -5,7 +5,7 @@
 @prefix dbo: <https://dbpedia.org/ontology> .
 @prefix dbr: <https://dbpedia.org/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix covid: <https://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/shacl_persebaran-covid.ttl> .
+@prefix covid: <https://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/shacl_persebaran-covid.ttl#> .
 @prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix dash: <http://datashapes.org/dash#> .
 
