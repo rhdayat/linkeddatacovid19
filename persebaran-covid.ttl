@@ -55,7 +55,7 @@ covid:totalPatientWithSymptomPositivePercentage rdfs:range xsd:float .
 #################################################
 #         Data Statistik Gejala Covid           #
 #################################################
-covid:Statistik_Covid_Cough_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Cough_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -63,7 +63,7 @@ covid:Statistik_Covid_Cough_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "63.2"^^xsd:float .
 
-covid:Statistik_Covid_Fever_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Fever_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -71,7 +71,7 @@ covid:Statistik_Covid_Fever_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "35.9"^^xsd:float .
 
-covid:Statistik_Covid_Flu_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Flu_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -79,7 +79,7 @@ covid:Statistik_Covid_Flu_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "33.8"^^xsd:float .
 
-covid:Statistik_Covid_Limp_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Limp_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -87,7 +87,7 @@ covid:Statistik_Covid_Limp_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "26.7"^^xsd:float .
 
-covid:Statistik_Covid_Septic_Throat_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Septic_Throat_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -95,7 +95,7 @@ covid:Statistik_Covid_Septic_Throat_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "23.7"^^xsd:float .
 
-covid:Statistik_Covid_Headache_Throat_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Headache_Throat_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -103,7 +103,7 @@ covid:Statistik_Covid_Headache_Throat_Symptom a covid:Covid19_Symptom_Statistics
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "23"^^xsd:float .
 
-covid:Statistik_Covid_Muscle_Cramp_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Muscle_Cramp_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -111,7 +111,7 @@ covid:Statistik_Covid_Muscle_Cramp_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "15.1"^^xsd:float .
 
-covid:Statistik_Covid_Nausea_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Nausea_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -119,7 +119,7 @@ covid:Statistik_Covid_Nausea_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "13"^^xsd:float .
 
-covid:Statistik_Covid_Colic_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Colic_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -127,7 +127,7 @@ covid:Statistik_Covid_Colic_Symptom a covid:Covid19_Symptom_Statistics ;
     covid:disease dbr:Coronavirus ;
     covid:totalPatientWithSymptomPositivePercentage "5.7"^^xsd:float .
 
-covid:Statistik_Covid_Diarrhea_Symptom a covid:Covid19_Symptom_Statistics ;
+covid:Statistik_Covid_Diarrhea_Symptom_2021_05_04 a covid:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Indonesia ;
@@ -141,7 +141,7 @@ covid:Statistik_Covid_Diarrhea_Symptom a covid:Covid19_Symptom_Statistics ;
 #######################################################
 # Data Persebaran Covid Di Seluruh Provinsi Indonesia #
 #######################################################
-covid:Sebaran_Covid_DKI_Jakarta a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_DKI_Jakarta_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Jakarta ;
@@ -151,7 +151,7 @@ covid:Sebaran_Covid_DKI_Jakarta a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "6704"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Jawa_Barat a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Jawa_Barat_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:West_Java ;
@@ -161,7 +161,7 @@ covid:Sebaran_Covid_Jawa_Barat a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "3758"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Jawa_Tengah a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Jawa_Tengah_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Central_Java ;
@@ -171,7 +171,7 @@ covid:Sebaran_Covid_Jawa_Tengah a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "8245"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Jawa_Timur a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Jawa_Timur_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:East_Java ;
@@ -181,7 +181,7 @@ covid:Sebaran_Covid_Jawa_Timur a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "10708"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Kalimantan_Timur a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Kalimantan_Timur_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:East_Kalimantan ;
@@ -191,7 +191,7 @@ covid:Sebaran_Covid_Kalimantan_Timur a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "1640"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Sulawesi_Selatan a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Sulawesi_Selatan_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:South_Sulawesi ;
@@ -201,7 +201,7 @@ covid:Sebaran_Covid_Sulawesi_Selatan a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "935"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Banten a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Banten_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Banten ;
@@ -211,7 +211,7 @@ covid:Sebaran_Covid_Banten a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "1212"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Bali a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Bali_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Bali ;
@@ -221,7 +221,7 @@ covid:Sebaran_Covid_Bali a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "1231"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_Riau a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_Riau_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Riau ;
@@ -231,7 +231,7 @@ covid:Sebaran_Covid_Riau a covid:Covid_Case_In_Indonesia_Province ;
     covid:totalPatientDeath "1116"^^xsd:integer ;
     covid:disease dbr:Coronavirus .
 
-covid:Sebaran_Covid_DI_Yogyakarta a covid:Covid_Case_In_Indonesia_Province ;
+covid:Sebaran_Covid_DI_Yogyakarta_2021_05_04 a covid:Covid_Case_In_Indonesia_Province ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:datetime ;
     schema:spatial dbr:Special_Region_of_Yogyakarta ;
