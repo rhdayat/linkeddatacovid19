@@ -5,7 +5,7 @@
 @prefix dbo: <https://dbpedia.org/ontology> .
 @prefix dbr: <https://dbpedia.org/resource/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix covid: <http:example.com/> .
+@prefix covid: <https://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/persebaran-covid.ttl> .
 
 #################################################
 #        Class Persebaran Covid Provinsi        #
