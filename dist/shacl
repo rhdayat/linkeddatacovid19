@@ -1,0 +1,107 @@
+@prefix schema: <http://schema.org> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+
+@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
+
+#################################################
+#             Shape Untuk Properti              #
+#################################################
+
+baseVocab:totalConfirmedCaseShape a sh:PopertyShape ;
+	sh:path baseVocab:totalConfirmedCase ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+baseVocab:totalActiveCaseShape a sh:PopertyShape ;
+	sh:path baseVocab:totalActiveCase ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+baseVocab:totalPatientDeathShape a sh:PopertyShape ;
+	sh:path baseVocab:totalPatientDeath ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+baseVocab:totalPatientHealedShape a sh:PopertyShape ;
+	sh:path baseVocab:totalPatientHealed ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:integer .
+
+baseVocab:totalPatientWithSymptomPositivePercentageShape a sh:PopertyShape ;
+	sh:path baseVocab:totalPatientWithSymptomPositivePercentage ;
+	sh:minCount 1 ;
+	sh:maxCount 1 ;
+	sh:datatype xsd:float .
+#################################################
+
+
+#################################################
+#     Shape Untuk Persebaran Covid Provinsi     #
+#################################################
+
+baseVocab:Covid_Case_In_Indonesia_Province_Shape a sh:NodeShape ;
+    sh:targetClass baseVocab:Covid_Case_In_Indonesia_Province ;
+    sh:property [
+        sh:path schema:diseaseSpreadStatistics ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:datePosted ;
+        sh:minCount 1 ;
+        sh:datatype xsd:datetime ;
+    ] ;
+    sh:property [
+        sh:path schema:spatial ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path baseVocab:disease ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+    sh:property baseVocab:totalConfirmedCaseShape ;
+    sh:property baseVocab:totalActiveCaseShapeCaseShape ;
+    sh:property baseVocab:totalPatientHealedShape ;
+    sh:property baseVocab:totalPatientDeathShape .
+#################################################
+
+
+
+#################################################
+#     Shape Untuk Statistik Gejala Covid        #
+#################################################
+
+baseVocab:Covid19_Symptom_Statistics_Shape a sh:NodeShape ;
+	sh:targetClass baseVocab:Covid19_Symptom_Statistics ;
+	sh:property [
+        sh:path schema:diseaseSpreadStatistics ;
+        sh:minCount 1 ;
+    ] ;
+    sh:property [
+        sh:path schema:datePosted ;
+        sh:minCount 1 ;
+        sh:datatype xsd:datetime ;
+    ] ;
+    sh:property [
+        sh:path schema:spatial ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path baseVocab:symptom ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property [
+        sh:path baseVocab:disease ;
+        sh:minCount 1 ;
+        sh:maxCount 1;
+    ] ;
+	sh:property baseVocab:totalPatientWithSymptomPositivePercentageShape .
+#################################################

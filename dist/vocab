@@ -1,0 +1,51 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org> .
+@prefix dbo: <http://dbpedia.org/ontology> .
+
+@prefix baseVocab: <http://raw.githubusercontent.com/rhdayat/linkeddatacovid19/main/dist/vocab#> .
+
+
+
+#################################################
+#        Class Persebaran Covid Provinsi        #
+#################################################
+baseVocab:Covid_Case_In_Indonesia_Province a rdfs:Class .
+baseVocab:Covid_Case_In_Indonesia_Province rdfs:subClassof schema:SpecialAnnouncement .
+
+baseVocab:totalPatientHealed a rdf:Property .
+baseVocab:totalPatientHealed rdfs:domain baseVocab:Covid_Case_In_Indonesia_Province .
+baseVocab:totalPatientHealed rdfs:range xsd:integer .
+
+baseVocab:totalConfirmedCase a rdf:Property .
+baseVocab:totalConfirmedCase rdfs:domain baseVocab:Covid_Case_In_Indonesia_Province .
+baseVocab:totalConfirmedCase rdfs:range xsd:integer .
+
+baseVocab:totalActiveCase a rdf:Property .
+baseVocab:totalActiveCase rdfs:domain baseVocab:Covid_Case_In_Indonesia_Province .
+baseVocab:totalActiveCase rdfs:range xsd:integer .
+
+baseVocab:totalPatientDeath a rdf:Property .
+baseVocab:totalPatientDeath rdfs:domain baseVocab:Covid_Case_In_Indonesia_Province .
+baseVocab:totalPatientDeath rdfs:range xsd:integer .
+
+baseVocab:disease a rdf:Property .
+baseVocab:disease rdfs:domain baseVocab:Covid_Case_In_Indonesia_Province, baseVocab:Covid19_Symptom_Statistics .
+baseVocab:disease rdfs:range dbo:disease .
+#################################################
+
+#################################################
+#    Class Statistik Gejala Positif Covid       #
+#################################################
+baseVocab:Covid19_Symptom_Statistics a rdfs:Class .
+baseVocab:Covid19_Symptom_Statistics rdfs:subClassof schema:SpecialAnnouncement .
+
+baseVocab:symptom a rdf:Property .
+baseVocab:symptom rdfs:domain baseVocab:Covid19_Symptom_Statistics .
+baseVocab:symptom rdfs:range dbo:disease .
+
+baseVocab:totalPatientWithSymptomPositivePercentage a rdf:Property .
+baseVocab:totalPatientWithSymptomPositivePercentage rdfs:domain baseVocab:Covid19_Symptom_Statistics .
+baseVocab:totalPatientWithSymptomPositivePercentage rdfs:range xsd:float .
+#################################################
