@@ -17,6 +17,14 @@ symptomData:Statistik_Covid_Cough_Symptom_2021_05_04 a baseVocab:Covid19_Symptom
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "63.2"^^xsd:float .
 
+symptomData:Statistik_Covid_Cough_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Cough ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "63.2"^^xsd:float .
+
 symptomData:Statistik_Covid_Fever_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -25,9 +33,25 @@ symptomData:Statistik_Covid_Fever_Symptom_2021_05_04 a baseVocab:Covid19_Symptom
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "35.9"^^xsd:float .
 
+symptomData:Statistik_Covid_Fever_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Fever ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "36.1"^^xsd:float .
+
 symptomData:Statistik_Covid_Flu_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Influenza ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "33.8"^^xsd:float .
+
+symptomData:Statistik_Covid_Flu_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
     schema:spatial dbr:Indonesia ;
     baseVocab:symptom dbr:Influenza ;
     baseVocab:disease dbr:Coronavirus ;
@@ -41,9 +65,25 @@ symptomData:Statistik_Covid_Limp_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "26.7"^^xsd:float .
 
+symptomData:Statistik_Covid_Limp_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Limp ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "26.6"^^xsd:float .
+
 symptomData:Statistik_Covid_Septic_Throat_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Pharyngitis ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "23.7"^^xsd:float .
+
+symptomData:Statistik_Covid_Septic_Throat_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
     schema:spatial dbr:Indonesia ;
     baseVocab:symptom dbr:Pharyngitis ;
     baseVocab:disease dbr:Coronavirus ;
@@ -57,9 +97,25 @@ symptomData:Statistik_Covid_Headache_Throat_Symptom_2021_05_04 a baseVocab:Covid
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "23"^^xsd:float .
 
+symptomData:Statistik_Covid_Headache_Throat_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Headache ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "22.9"^^xsd:float .
+
 symptomData:Statistik_Covid_Muscle_Cramp_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Cramp ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "15.1"^^xsd:float .
+
+symptomData:Statistik_Covid_Muscle_Cramp_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
     schema:spatial dbr:Indonesia ;
     baseVocab:symptom dbr:Cramp ;
     baseVocab:disease dbr:Coronavirus ;
@@ -73,6 +129,14 @@ symptomData:Statistik_Covid_Nausea_Symptom_2021_05_04 a baseVocab:Covid19_Sympto
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "13"^^xsd:float .
 
+symptomData:Statistik_Covid_Nausea_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Nausea ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "12.9"^^xsd:float .
+
 symptomData:Statistik_Covid_Colic_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
@@ -81,9 +145,25 @@ symptomData:Statistik_Covid_Colic_Symptom_2021_05_04 a baseVocab:Covid19_Symptom
     baseVocab:disease dbr:Coronavirus ;
     baseVocab:totalPatientWithSymptomPositivePercentage "5.7"^^xsd:float .
 
+symptomData:Statistik_Covid_Colic_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Colic ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "5.7"^^xsd:float .
+
 symptomData:Statistik_Covid_Diarrhea_Symptom_2021_05_04 a baseVocab:Covid19_Symptom_Statistics ;
     schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
     schema:datePosted "2021-05-04"^^xsd:date ;
+    schema:spatial dbr:Indonesia ;
+    baseVocab:symptom dbr:Diarrhea ;
+    baseVocab:disease dbr:Coronavirus ;
+    baseVocab:totalPatientWithSymptomPositivePercentage "5.5"^^xsd:float .
+
+symptomData:Statistik_Covid_Diarrhea_Symptom_2021_05_05 a baseVocab:Covid19_Symptom_Statistics ;
+    schema:diseaseSpreadStatistics "https://covid19.go.id/peta-sebaran-covid19" ;
+    schema:datePosted "2021-05-05"^^xsd:date ;
     schema:spatial dbr:Indonesia ;
     baseVocab:symptom dbr:Diarrhea ;
     baseVocab:disease dbr:Coronavirus ;
