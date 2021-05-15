@@ -53,7 +53,7 @@ baseVocab:Covid_Case_In_Indonesia_Province_Shape a sh:NodeShape ;
     sh:property [
         sh:path schema:datePosted ;
         sh:minCount 1 ;
-        sh:datatype xsd:datetime, xsd:date ;
+        sh:datatype xsd:date ;
     ] ;
     sh:property [
         sh:path schema:spatial ;
